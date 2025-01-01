@@ -1,0 +1,12 @@
+[document]
+name = "beta.blog.momee.mt"
+version = "0.0.1"
+backend = "jsx"
+extension = "jsx"
+authors = ["Mutsuha Asada <me@momee.mt>"]
+
+[plugins.ravenlog]
+schema = "github"
+owner = "brack-lang"
+repo = "ravenlog.jsx"
+version = "v-0.0.1-dev-3"
