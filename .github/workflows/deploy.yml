@@ -1,0 +1,19 @@
+name: Ravenlog Deploy
+on:
+  push:
+    branches:
+        - main
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Deploy
+        uses: brack-lang/ravenlog/actions/deploy@main
+        with:
+          deploy-branch: deploy-ravenlog
+          github-token: ${{ secrets.GITHUB_TOKEN }}
