@@ -1,0 +1,29 @@
+{
+  "posts": [],
+  "daily": [],
+  "weekly": [],
+  "monthly": [],
+  "annual": [
+    {
+      "title": "テスト記事",
+      "description": "テスト",
+      "tags": [
+        "テスト"
+      ],
+      "author": {
+        "id": "momeemt",
+        "name": "Mutsuha Asada",
+        "icon": "authors/momeemt.png",
+        "email": "me@momee.mt",
+        "website": "https://momee.mt",
+        "github_id": "momeemt",
+        "x_id": "mutsuha_asada",
+        "admin": true
+      },
+      "slug": "annual",
+      "date": "2024/12/31",
+      "body": "こんにちは。テスト記事です。<Heading1>まだLSPが安定していない</Heading1>困る",
+      "post_type": "Annual"
+    }
+  ]
+}
