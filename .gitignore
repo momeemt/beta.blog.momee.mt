@@ -1,2 +1,12 @@
+# === Nix ===
 .envrc
 .direnv
+
+# === Brack ===
+out
+plugins
+
+# === Ravenlog ===
+ravenlog-git
+.ravenlog
+.ravenlog-server

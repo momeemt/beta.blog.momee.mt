@@ -1,0 +1,64 @@
+{ravenlog.* 見出し1}
+
+Hello, Ravenlog!
+
+{ravenlog.** 見出し2}
+
+見出しは6レベルまで用意されています。
+
+{ravenlog.*** 見出し3}
+
+将来的には見出しに一意のIDを割り当てて直接アクセスできるようにしたいと考えています。
+
+{ravenlog.**** 見出し4}
+
+また、見出しを取り出して目次を生成することも計画しています。
+
+{ravenlog.***** 見出し5}
+
+ここまで来ると通常のテキストサイズとさほど変わりません。
+
+{ravenlog.****** 見出し6}
+
+見出し6までを使った構造化文書はあまり見たことがありません。
+
+{ravenlog.* 画像}
+
+assets配下のファイルは、Next.jsプロジェクトのpublic配下に配置されるため、/からアクセスできます。
+
+{ravenlog.img /logo\.png, ブログのロゴ, かわいい！}
+
+{ravenlog.* リスト}
+
+{ravenlog.** 非順序リスト}
+
+{ravenlog.- 非順序リスト要素1, 非順序リスト要素2, {ravenlog.- 入れ子にもできます}, リスト構文はまだ使い辛い}
+
+{ravenlog.** 順序リスト}
+
+{ravenlog.# 順序リスト要素1, 順序リスト要素2, {ravenlog.# こちらも入れ子になります}, 順序リスト要素3}
+
+{ravenlog.* 装飾要素}
+
+{ravenlog.** 太字}
+
+[ravenlog.* ボールド体]にします
+
+{ravenlog.** イタリック}
+
+[ravenlog./ イタリック体]にします
+
+{ravenlog.** 取り消し線}
+
+[ravenlog.~ Markdownの方が書きやすい。]取り消します。まだこの言語は発展途上ですが、いずれBrackの方が使い勝手がよくなるでしょう。
+
+{ravenlog.** リンク}
+
+[ravenlog.@ https://blog\.momee\.mt, momeemtのブログ]にリンクを張ってみます。
+
+{ravenlog.* 数学}
+
+びっくりするほど使い辛い。Typstのような構文を入れるか、あるいは文字列リテラルを入れないととても実用的ではありません。
+
+[ravenlog.$ \\int^\\beta_\\alpha(x-\\alpha)(\\beta-x)dx]
+

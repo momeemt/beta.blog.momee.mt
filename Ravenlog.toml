@@ -1,4 +1,4 @@
-title = "blog.momee.mt"
+title = "beta.blog.momee.mt"
 description = "Mutsuha Asadaのブログ"
 comments = [
     "計算機と羊文学が好きで、マヨネーズが苦手です",
@@ -22,7 +22,7 @@ href = "https://momee.mt"
 
 [[footer.links]]
 text = "Source"
-href = "https://github.com/momeemt/blog.momee.mt"
+href = "https://github.com/momeemt/beta.blog.momee.mt"
 
 [posts]
 heading = "記事"
